@@ -1,5 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#name{
+  background-color: #626b6e;
+  font-size: 2rem;
+  padding-top: 2vh;
+  width: 30%;
+  margin-left: 34%;
+  height: 9vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.game-btn{
+  padding-top: 15vh;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.game-btn button{
+  border-radius: 20px 20px 20px 20px;
+  border: 5px solid rgb(81, 91, 124);
+}
+
+.shows{
+  display: flex;
+  margin-top: 18vh;
+  height: 30vh;
+  width: 30vw;
+  margin-left: 35vw;
+  border: 5px solid gray;
+  border-radius: 10rem 10rem 10rem 10rem;
+  opacity: 0.8;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(69, 58, 58);
+}
+
+.showresult{
+  display: flex;
+}
+
+.results{
+  border: 5px solid rgb(226, 135, 32);
+  margin-left: 10vw;
+  margin-top: 10vh;
+  width: 20vw;
+  background-color: rgb(69, 174, 145);
+  opacity: 0.7;
+}
+
+.in-score{
+  margin-top: 3vh;
+}
+
+#computer-score{
+  margin-top: 2vh;
+}
+
+#your-score{
+   margin-top: 15vh;
+}
+
+@media only screen and (max-width: 915px) and (min-width: 700px) {
+ 
+
+  #show{
+    font-size: 20px;
+  }
+
+  #computerchoose{
+    font-size: 20px;
+  }
+
+  #result{
+    font-size: 20px;
+  }
+
+  #computer-score1{
+    font-size: 17px;
+  }
+
+  #your-score1{
+    font-size: 17px;
+  }
+
+  #name{
+    background-color: #626b6e;
+    font-size: 22px;
+    padding-top: 2vh;
+    width: 30%;
+    margin-left: 36%;
+    height: 9vh;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .game-btn{
+    padding-top: 15vh;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .game-btn button{
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid rgb(81, 91, 124);
+  }
+  
+  .shows{
+    display: flex;
+    margin-top: 18vh;
+    height: 25vh;
+    font-size: 1rem;
+    width: 50vw;
+    margin-left: 35vw;
+    border: 5px solid gray;
+    border-radius: 10rem 10rem 10rem 10rem;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(69, 58, 58);
+  }
+  
+  .showresult{
+    display: flex;
+  }
+  
+  .results{
+    border: 5px solid rgb(226, 135, 32);
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 20vw;
+    background-color: rgb(69, 174, 145);
+    opacity: 0.7;
+  }
+  
+  .in-score{
+    margin-top: 3vh;
+  }
+  
+  #computer-score{
+    margin-top: 2vh;
+  }
+  
+  #your-score{
+     margin-top: 15vh;
+  }
+  
+
+
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 500px) {
+ 
+
+  #show{
+    font-size: 15px;
+  }
+
+  #computerchoose{
+    font-size: 15px;
+  }
+
+  #result{
+    font-size: 15px;
+  }
+
+  #computer-score1{
+    font-size: 13px;
+  }
+
+  #your-score1{
+    font-size: 13px;
+  }
+
+  #name{
+    background-color: #626b6e;
+    font-size: 22px;
+    padding-top: 2vh;
+    width: 40%;
+    margin-left: 30%;
+    height: 9vh;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .game-btn{
+    padding-top: 15vh;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .game-btn button{
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid rgb(81, 91, 124);
+  }
+  
+  .shows{
+    display: flex;
+    margin-top: 18vh;
+    height: 28vh;
+    font-size: 1rem;
+    width: 70vw;
+    margin-left: 25vw;
+    border: 5px solid gray;
+    border-radius: 10rem 10rem 10rem 10rem;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(69, 58, 58);
+  }
+  
+  .showresult{
+    display: flex;
+  }
+  
+  .results{
+    border: 5px solid rgb(226, 135, 32);
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 20vw;
+    background-color: rgb(69, 174, 145);
+    opacity: 0.7;
+  }
+  
+  .in-score{
+    margin-top: 3vh;
+  }
+  
+  #computer-score{
+    margin-top: 2vh;
+  }
+  
+  #your-score{
+     margin-top: 15vh;
+  }
+  
+
+
+}
+
+
+@media only screen and (max-width: 499px) and (min-width: 200px) {
+ 
+
+  #show{
+    font-size: 11px;
+  }
+
+  #computerchoose{
+    font-size: 11px;
+  }
+
+  #result{
+    font-size: 11px;
+  }
+
+  #computer-score1{
+    font-size: 9px;
+  }
+
+  #your-score1{
+    font-size: 9px;
+  }
+
+  #name{
+    background-color: #626b6e;
+    font-size: 18px;
+    padding-top: 1vh;
+    width: 60%;
+    margin-left: 20%;
+    height: 6vh;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .game-btn{
+    padding-top: 14vh;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .game-btn button{
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid rgb(81, 91, 124);
+  }
+  
+  .shows{
+    display: flex;
+    margin-top: 18vh;
+    height: 28vh;
+    font-size: 50px;
+    width: 90vw;
+    margin-left: 15vw;
+    border: 5px solid gray;
+    border-radius: 10rem 10rem 10rem 10rem;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(69, 58, 58);
+  }
+  
+  .showresult{
+    display: flex;
+  }
+  
+  .results{
+    border: 5px solid rgb(226, 135, 32);
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 20vw;
+    background-color: rgb(69, 174, 145);
+    opacity: 0.7;
+  }
+  
+  .in-score{
+    margin-top: 3vh;
+  }
+  
+  #computer-score{
+    margin-top: 2vh;
+  }
+  
+  #your-score{
+     margin-top: 15vh;
+  }
+  
+
+
+}
+
 .App {
   text-align: center;
+  background-image: url(./Pics/pexels-may-dayua-1365795.jpg); 
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-size:cover;
+    
 }
 
 .App-logo {
